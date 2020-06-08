@@ -1,0 +1,113 @@
+body {
+    background-image: url(IMG_0195.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: darkred;
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+  }
+  .nav-link:hover {
+    color: lightblue;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: lightblue;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover {
+    color: darkred;
+  }
+  h1 {
+    font-size: 60pt;
+    background-color: plum;
+  }
+  .header-tag {
+    text-align: center;
+    Color: darkred; 
+    Text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+    background-color: rgba(243, 229, 28, 0.712);
+  }
+  h2 {
+    font-family: 'Acme', sans-serif;
+    color: saddlebrown;
+    text-align: center;
+  }
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #about-picture {
+    width: 30vw;
+    float: left;
+  }
+  #profile-pic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black
+  }
+  #about-content {
+    width: 40vw;
+    float: right;
+    background-color: lightgoldenrodyellow;
+  }
+  p {
+    color: saddlebrown;
+  }
+  #contact-form {
+    margin: auto;
+    margin-top: 100px;
+    width: 30vw;
+    background-color: grey;
+    text-align: center;
+    padding-left: 88px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: .4cm;
+  }
+  #contact-form input {
+      widows: 90%;
+      margin-bottom: 20px;
+      height: 50px;
+      font-size: 18px;
+      text-align: center;
+  }
+  #contact-form h2 {
+      color: white;
+      font-size: 28pt;
+      text-shadow: 2px 2px 2px black;
+  }
+textarea {
+    resize: none;
+    height: 200px;
+    width: 98%;
+    margin-bottom: 30px;
+} 
+
